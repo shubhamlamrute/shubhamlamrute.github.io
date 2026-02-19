@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* HERO SECTION */
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2563eb, #7c3aed);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.hero span {
+  opacity: 0.8;
+  font-size: 0.9rem;
+}
+
+/* SECTIONS */
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 25px;
+  color: #38bdf8;
+}
+
+/* CARDS */
+
+.projects {
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+  border-left: 4px solid #38bdf8;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  background: #334155;
+}
+
+/* BUTTONS */
+
+.links {
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 22px;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #020617;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
